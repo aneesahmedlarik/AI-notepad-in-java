@@ -29,7 +29,9 @@ public class AINotepad extends JFrame {
             // Create a new JLabel with specified text and font
             jLabel1 = new JLabel("Capture Your Thoughts here");
             jLabel1.setFont(new Font("Times New Roman", Font.PLAIN, 16));
-
+jLabel1.setForeground(new Color(46,139,87));
+jPanel1.add(jLabel1);
+add(jPanel1, BorderLayout.North);
 
             JMenuBar menuBar = new JMenuBar();
             JMenu fileMenu = new JMenu("File");
